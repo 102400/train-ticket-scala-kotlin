@@ -1,0 +1,18 @@
+################################################
+
+POST    /api/account/login              controllers.AccountController.login
+POST    /api/account/register              controllers.AccountController.register
+POST    /api/account/verifyToken              controllers.AccountController.verifyToken
+
+################################################
+
+POST    /api/graph/locationList             controllers.GraphController.locationList
+POST    /api/graph/startToLocationList      controllers.GraphController.startToLocationList
+POST    /api/graph/startToEndTrainNumberList   controllers.GraphController.startToEndTrainNumberList
+
+################################################
+
+POST    /api/order/submitOrder             controllers.OrderController.submitOrder
+POST    /api/order/orderList               controllers.OrderController.orderList
+
+################################################
